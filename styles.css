@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Protest+Revolution&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Love Light", cursive;
+}
+section{
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    place-items: center;
+    background-color: #AF1740;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 10px #ffffff;
+}
+body{
+    /* background-color: #CC2B52; */
+    background-color: #DE7C7D;
+}
+button{
+    background-color: #740938;
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: x-large;
+    color: white;
+    text-shadow: 2px 2px black;
+    border: 1px solid #DE7C7D;
+    margin-bottom: 10px;
+    opacity: 1;
+    transform: translateY(0);
+    animation: fade-in 1s ease-in;
+}
+@keyframes fade-in {
+    0% {
+      /* Effect values */
+      opacity: 0;
+      transform: translateY(50px);
+    }
+  }     
+img{
+    border-radius: 10px;
+    height:300px;
+    box-shadow: 1px 1px 10px 5px #000000;
+    margin-bottom: 15px;
+}
+.header{
+    color: rgb(231, 135, 135);
+    font-size: xx-large;
+    text-shadow: 2px 2px #000000;
+}
+.header h1{
+    margin: 10px;
+}
+.para{
+    font-size: xx-large;
+    text-shadow: 1px 1px #ed7171;
+    margin-bottom: 10px;
+}
+.footer p{
+    font-size: x-large;
+    margin: 20px;
+}
+.sound{
+    margin-bottom: 10px;
+}
